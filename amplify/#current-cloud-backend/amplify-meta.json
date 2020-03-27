@@ -10,6 +10,11 @@
 			"StackName": "amplify-amplify-app-dev-144943",
 			"StackId": "arn:aws:cloudformation:us-east-1:510660604207:stack/amplify-amplify-app-dev-144943/545b6690-6fa3-11ea-ad13-0e660dd6b3d4",
 			"AmplifyAppId": "d2nwt2etrl13xy"
+		},
+		"categories": {
+			"auth": {
+				"amplifyapp6fe5a160": {}
+			}
 		}
 	},
 	"auth": {
@@ -18,11 +23,6 @@
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"customAuth": false,
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify-app-dev-144943-deployment/amplify-cfn-templates/auth/amplifyapp6fe5a160-cloudformation-template.yml",
-				"logicalId": "authamplifyapp6fe5a160"
-			},
-			"lastPushTimeStamp": "2020-03-26T22:37:54.764Z",
 			"output": {
 				"AppClientSecret": "1oa4b7u30m64r9t291lmk858rpu36jg9a54dv4gj6bkmvsa6h23k",
 				"UserPoolId": "us-east-1_F7jDJwWus",
@@ -31,6 +31,11 @@
 				"IdentityPoolId": "us-east-1:75b825a0-9b78-4805-a25a-c35e4ccd4c7b",
 				"IdentityPoolName": "amplifyapp6fe5a160_identitypool_6fe5a160__dev",
 				"UserPoolName": "amplifyapp6fe5a160_userpool_6fe5a160"
+			},
+			"lastPushTimeStamp": "2020-03-26T23:33:25.753Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify-app-dev-144943-deployment/amplify-cfn-templates/auth/amplifyapp6fe5a160-cloudformation-template.yml",
+				"logicalId": "authamplifyapp6fe5a160"
 			},
 			"lastPushDirHash": "CrKoQmF5Ulqn11ykGgy9XtFchQc="
 		}
